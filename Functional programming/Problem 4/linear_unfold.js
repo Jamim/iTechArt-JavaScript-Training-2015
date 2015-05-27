@@ -1,4 +1,4 @@
-function F(callback, initialValue) {
+function unfold(callback, initialValue) {
 	"use strict";
 
 	var array = [];
@@ -13,3 +13,5 @@ function F(callback, initialValue) {
 
 	return array;
 }
+
+var F = unfold;
