@@ -1,4 +1,4 @@
-function Map(f, array) {
+function map(f, array) {
 	"use strict";
 
 	var new_array = [];
