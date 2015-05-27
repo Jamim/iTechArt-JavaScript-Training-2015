@@ -1,4 +1,4 @@
-function F(array, callback, initialValue) {
+function fold(array, callback, initialValue) {
 	"use strict";
 
 	var previousValue = initialValue;
@@ -10,8 +10,10 @@ function F(array, callback, initialValue) {
 	return previousValue;
 }
 
-function alternativeF(array, callback, initialValue) {
+function alternativeFold(array, callback, initialValue) {
 	"use strict";
 
 	return array.reduce(callback, initialValue);
 }
+
+var F = fold;

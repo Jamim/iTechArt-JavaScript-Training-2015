@@ -1,4 +1,4 @@
-function Filter(f, array) {
+function filter(f, array) {
 	"use strict";
 
 	var new_array = [];
